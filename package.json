@@ -1,0 +1,53 @@
+{
+  "name": "directus-nuxt-app",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "svgo:optimize": "svgo -f ./assets/icons/svg -o ./assets/icons/svg"
+  },
+  "dependencies": {
+    "@nuxt/eslint": "^0.6.0",
+    "@nuxtjs/i18n": "^8.5.5",
+    "@nuxtjs/svg-sprite": "^1.0.2",
+    "@nuxtjs/tailwindcss": "^6.12.2",
+    "@vueuse/core": "^12.5.0",
+    "class-variance-authority": "^0.7.0",
+    "classnames": "^2.5.1",
+    "clsx": "^2.1.1",
+    "lodash-es": "^4.17.21",
+    "lucide-vue-next": "^0.453.0",
+    "nuxt": "^3.13.2",
+    "nuxt-rating": "^0.1.5",
+    "nuxt-swiper": "^1.2.2",
+    "radix-vue": "^1.9.7",
+    "reka-ui": "^2.1.1",
+    "shadcn-nuxt": "^0.10.4",
+    "svgo": "^3.3.2",
+    "swiper": "^11.2.2",
+    "tailwind-merge": "^3.0.2",
+    "tailwindcss-animate": "^1.0.7",
+    "uninstall": "^0.0.0",
+    "vee-validate": "^4.15.0",
+    "vue": "latest",
+    "vue-router": "latest",
+    "vue3-marquee": "^4.2.2",
+    "yup": "^1.6.1"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^3.8.0",
+    "@types/lodash-es": "^4.17.12",
+    "eslint": "^9.13.0",
+    "globals": "^15.11.0",
+    "typescript": "^5.6.3",
+    "typescript-eslint": "^8.11.0",
+    "vite-plugin-eslint2": "^5.0.1"
+  },
+  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
+}
