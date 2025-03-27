@@ -10,7 +10,7 @@
       >
         <template #default="">
           <div
-            class="max-w-[580px] mx-auto p-8 bg-gray-150/50 flex flex-col text-center items-center"
+            class="max-w-[580px] mx-auto p-8 rounded-2xl bg-gray-150/50 flex flex-col text-center items-center"
           >
             <img
               src="https://i.scdn.co/image/ab6761610000e5eb52c3678aba6b9122afebc341"

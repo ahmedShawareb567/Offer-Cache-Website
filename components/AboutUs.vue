@@ -1,7 +1,7 @@
 <template>
   <div id="about-us" class="relative">
     <div
-      class="container z-20 lg:px-0 flex gap-x-24 pt-16 pb-8 lg:flex-nowrap flex-wrap justify-center items-center"
+      class="container z-20 lg:px-0 flex gap-24 pt-16 pb-8 lg:flex-nowrap flex-wrap justify-center items-center"
     >
       <div
         class="w-fit relative shrink-0 after:absolute after:size-96  after:bg-blue-200 after:rounded-full after:top-1/2 after:-translate-y-1/2 after:-right-32 after:-z-10"

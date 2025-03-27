@@ -25,7 +25,7 @@
         <h2 class="font-bold text-lg text-gray-800 pb-4">
           وسائل التواصل الإجتماعي
         </h2>
-        <div class="flex gap-x-4">
+        <div class="flex  items-center gap-x-4">
           <a
             v-for="(item, index) in socialLinks"
             :key="index"

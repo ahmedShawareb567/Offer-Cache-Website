@@ -7,13 +7,13 @@
       :id="id"
       :value="modelValue"
       :class="inputClasses"
-      class="mt-1 block w-full rounded-lg transition-colors duration-200 h-14 px-4"
+      class="mt-1 block w-full rounded-lg transition-colors text-gray-900 duration-200 h-14 px-4"
       @change="handleInput"
       @blur="$emit('blur')"
     >
-      <option value="" disabled selected>{{ placeholder }}</option>
-      <option value="اقتراح">اقتراح</option>
-      <option value="شكوي">شكوي</option>
+      <option value="" disabled selected class="text-gray-900">{{ placeholder }}</option>
+      <option value="اقتراح" class=" text-gray-900">اقتراح</option>
+      <option value="شكوي" class=" text-gray-900">شكوي</option>
     </select>
     <p v-if="showError(props.error)" class="mt-1 text-sm text-red-500">
       {{ error }}

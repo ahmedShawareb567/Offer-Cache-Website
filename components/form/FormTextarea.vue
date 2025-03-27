@@ -1,7 +1,7 @@
 <template>
   <div class="text-start">
     <label :for="id" class="  text-sm  font-medium text-gray-900">
-      {{ lable }}
+      {{ label }}
     </label>
     <textarea
       :id="id"
@@ -28,7 +28,7 @@ interface Props {
   error?: string;
   isDirty?: boolean;
   isBlurred?: boolean;
-  lable?: string;
+  label?: string;
 }
 
 const props = withDefaults(defineProps<Props>(), {

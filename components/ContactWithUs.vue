@@ -8,7 +8,7 @@
           <div
             v-for="(item, index) in contactInfo"
             :key="index"
-            class="flex items-start gap-3"
+            class="flex  items-center gap-3"
           >
             <SvgIcon :name="item.icon" class="size-6 mt-1 text-darkblue-500" />
             <div>
